@@ -4,9 +4,8 @@ header {
 }
 
 h1,
-h2,
-h3,
-h4 {
+h2
+ {
     color: white;
     font-size: 45px;
     font-weight: 500;
@@ -49,16 +48,20 @@ h4 {
 
 hr{
   
-    width: 10%;
+    width: 50px;
     height: 2px;
-    margin: 25px auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
 }
  p{
     margin-bottom: 50px;
+    width: 100%;
 }
 
 /* media query */
-@media screen and (min-width:0) and (max-width:940px) {
+@media screen and (min-width:0) and (max-width:966px) {
 .burgerIco {
     display: flex;
 }
@@ -69,12 +72,17 @@ nav{
 width: 100%;
 }  
 h1,
-h2,
-h3,
-h4 {  
+h2 {  
     font-size: 30px;
 } 
 body{
      font-size: 14px;
 }
+}
+
+.Service p{
+color:gray;
+}
+.Service svg{
+    width: 50px;
 }

@@ -67,7 +67,7 @@ body {
 .flex-grow { flex-grow: 1; }
 
 .grid { display: grid; }
-.grid-2-col { 
+.grid-col { 
   display: grid; 
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
   gap: 20px; 
@@ -353,6 +353,9 @@ body {
 }
 .white{
     color: whitesmoke;
+}
+.black{
+    color: rgba(0, 0, 0, 0.884);
 }
 /* width & heght--------------------------------------- */
 .width-55
