@@ -1,0 +1,80 @@
+header {
+    z-index: 99;
+    background-color: #f4623a;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: white;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.burgerIco {
+   border: 1px solid rgba(255, 255, 255, 0.7);
+   border-radius: 10px;
+   padding: 5px 15px;
+   display: none;
+  
+}
+.burgerIco svg{
+    width: 30px;
+    
+}
+.nav-item {
+    font-size: 15px;
+    font-weight: 600;
+}
+.nav-brand {
+    font-size: 20px;
+}
+
+.hero {
+    background-image: url(../assets/img/bg-masthead.jpg);
+    background-size: cover;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    background-color: #66524dad;
+    inset: 0;
+}
+
+.hero-content {
+    z-index: 5;
+}
+
+hr{
+  
+    width: 10%;
+    height: 2px;
+    margin: 25px auto;
+}
+ p{
+    margin-bottom: 50px;
+}
+
+/* media query */
+@media screen and (min-width:0) and (max-width:940px) {
+.burgerIco {
+    display: flex;
+}
+nav{
+    display: none;
+}
+.hero-content , .Services-Content{
+width: 100%;
+}  
+h1,
+h2,
+h3,
+h4 {  
+    font-size: 30px;
+} 
+body{
+     font-size: 14px;
+}
+}
